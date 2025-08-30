@@ -1,0 +1,15 @@
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdeClaseI\bin\Debug\net9.0\EjerciciosdeClaseI.exe
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdeClaseI\bin\Debug\net9.0\EjerciciosdeClaseI.deps.json
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdeClaseI\bin\Debug\net9.0\EjerciciosdeClaseI.runtimeconfig.json
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdeClaseI\bin\Debug\net9.0\EjerciciosdeClaseI.dll
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdeClaseI\bin\Debug\net9.0\EjerciciosdeClaseI.pdb
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdeClaseI\obj\Debug\net9.0\EjerciciosdeClaseI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdeClaseI\obj\Debug\net9.0\EjerciciosdeClaseI.AssemblyInfoInputs.cache
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdeClaseI\obj\Debug\net9.0\EjerciciosdeClaseI.AssemblyInfo.cs
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdeClaseI\obj\Debug\net9.0\EjerciciosdeClaseI.csproj.CoreCompileInputs.cache
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdeClaseI\obj\Debug\net9.0\EjerciciosdeClaseI.sourcelink.json
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdeClaseI\obj\Debug\net9.0\EjerciciosdeClaseI.dll
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdeClaseI\obj\Debug\net9.0\refint\EjerciciosdeClaseI.dll
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdeClaseI\obj\Debug\net9.0\EjerciciosdeClaseI.pdb
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdeClaseI\obj\Debug\net9.0\EjerciciosdeClaseI.genruntimeconfig.cache
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdeClaseI\obj\Debug\net9.0\ref\EjerciciosdeClaseI.dll

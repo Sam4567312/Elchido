@@ -60,6 +60,23 @@ void Atributosdeunarma() {
     Console.WriteLine($"daño:\t\t{daño}");
     Console.WriteLine($"velocidad:\t{velocidad}");
     Console.WriteLine($"costo:\t\t{costo}");
+    
+    
+    
 }
+
+
+// Ejercicio #4
+//Arbol 2 Agrega los colores al árbol de navidad 
+
+Console.ForegroundColor = ConsoleColor.Yellow;
+Console.WriteLine("       *");
+Console.ForegroundColor = ConsoleColor.DarkGreen;
+Console.WriteLine("     (   )");
+Console.Write("    ( *   ");
+Console.ForegroundColor = ConsoleColor.DarkRed;
+Console.Write("*");
+Console.Write(")");
+
 
 #endregion
