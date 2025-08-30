@@ -1,0 +1,15 @@
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdePrueba\bin\Debug\net9.0\EjerciciosdePrueba.exe
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdePrueba\bin\Debug\net9.0\EjerciciosdePrueba.deps.json
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdePrueba\bin\Debug\net9.0\EjerciciosdePrueba.runtimeconfig.json
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdePrueba\bin\Debug\net9.0\EjerciciosdePrueba.dll
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdePrueba\bin\Debug\net9.0\EjerciciosdePrueba.pdb
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdePrueba\obj\Debug\net9.0\EjerciciosdePrueba.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdePrueba\obj\Debug\net9.0\EjerciciosdePrueba.AssemblyInfoInputs.cache
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdePrueba\obj\Debug\net9.0\EjerciciosdePrueba.AssemblyInfo.cs
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdePrueba\obj\Debug\net9.0\EjerciciosdePrueba.csproj.CoreCompileInputs.cache
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdePrueba\obj\Debug\net9.0\EjerciciosdePrueba.sourcelink.json
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdePrueba\obj\Debug\net9.0\EjerciciosdePrueba.dll
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdePrueba\obj\Debug\net9.0\refint\EjerciciosdePrueba.dll
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdePrueba\obj\Debug\net9.0\EjerciciosdePrueba.pdb
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdePrueba\obj\Debug\net9.0\EjerciciosdePrueba.genruntimeconfig.cache
+C:\Users\AdminPC\RiderProjects\ProgramacionI\EjerciciosdePrueba\obj\Debug\net9.0\ref\EjerciciosdePrueba.dll
