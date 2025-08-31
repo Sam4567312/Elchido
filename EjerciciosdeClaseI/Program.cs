@@ -69,14 +69,37 @@ void Atributosdeunarma() {
 // Ejercicio #4
 //Arbol 2 Agrega los colores al árbol de navidad 
 
+void ArboldeNavidaddeColor() {
 Console.ForegroundColor = ConsoleColor.Yellow;
 Console.WriteLine("       *");
 Console.ForegroundColor = ConsoleColor.DarkGreen;
-Console.WriteLine("     (   )");
-Console.Write("    ( *   ");
+Console.WriteLine("     (  )");
+Console.WriteLine("    (    )");
+Console.Write("   ( ");
 Console.ForegroundColor = ConsoleColor.DarkRed;
-Console.Write("*");
-Console.Write(")");
+Console.Write("*   ");
+Console.ForegroundColor = ConsoleColor.DarkGreen;
+Console.WriteLine(" ) ");
+Console.Write("  (  ");
+Console.ForegroundColor = ConsoleColor.White;
+Console.Write(" * o ");
+Console.ForegroundColor = ConsoleColor.DarkGreen;
+Console.WriteLine(" ) ");
+Console.ForegroundColor = ConsoleColor.DarkGreen;
+Console.Write(" (  ");
+Console.ForegroundColor=ConsoleColor.DarkRed;
+Console.Write("o  *");
+Console.ForegroundColor = ConsoleColor.DarkGreen;
+Console.WriteLine("    ) ");
+Console.Write("(");
+Console.Write("____________");
+Console.WriteLine(")");
+Console.ForegroundColor = ConsoleColor.Black;
+Console.WriteLine("    |   |");
+Console.WriteLine("    |   |");
+
+}
+
 
 
 #endregion
