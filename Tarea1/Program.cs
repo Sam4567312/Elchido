@@ -1,6 +1,8 @@
-﻿#region Ejercicios de Tarea 
-Dañofinal();
+#region Ejercicios de Tarea 
+Danofinal();
 Pociones();
+Oroequipo();
+recibo();
 
 #endregion
 
@@ -19,7 +21,7 @@ Pociones();
 //Calcula el daño fina (Daño+fuerza)
 //Si alguno de los valores no es válido muestra un mensaje 
 
-void Dañofinal(){
+void Danofinal(){
 string input;
 string input2;
 
@@ -63,27 +65,38 @@ void Pociones()
 {
     int Pocion = 10;
     int oro = 200;
-    string input;
+    
     
     Console.WriteLine($"Hola jugador , tienes {oro} monedas de oro");
     Console.WriteLine($"Cada poción cuesta {Pocion} monedas de oro");
     Console.WriteLine("¿Cuántas pociones quieres?");
-    input = Console.ReadLine();
+    string input = Console.ReadLine();
     
-    if 
-    {
+    bool isValid;
+    int compra;
+    int multiplicación;
+    int resta;
     
-    (input <= 0:);
-        Console.WriteLine("Porfavor ingresa un valor válido");
-    }
-    
-    
-
-
+    isValid= int.TryParse(input , out compra);
+        if (isValid)
+        {
+            multiplicación= compra * Pocion;
+            resta = oro - multiplicación;
+            
+            if (resta>=0)
+            {
+                Console.WriteLine($"Compraste {input} pocimas");
+                Console.WriteLine($"Te quedan {resta} monedas de oro");
+            }
+            else {
+                Console.WriteLine("No tienes suficiente oro");
+            }
+        }
+        else 
+        {
+            Console.WriteLine("Ingresa un valor válido");
+        }
 }
-
-
-
 
 //Ejercicio #3 
 //Pide la cantidad de oro y la cantidad de integrantes del equipo.
@@ -92,22 +105,68 @@ void Pociones()
 //-Cuánto le toca a cada persona
 //-Cuánto oro sobra
 
-    ////string input2;
-    //bool isValid;
-    //bool isValid2;
+void Oroequipo(){
+    bool isValid;
+    bool isValid2;
+    int oro;
+    int equipo;
+    int división;
+    int sobrante;
 
-//Console.WriteLine("Hola,¿Cuántos integrantes son?");
-//string input = Console.ReadLine();
-//Console.WriteLine("¿Cuánto oro tienen en total?");
-//string input2 = Console.ReadLine();
+Console.WriteLine("Hola,¿Cuántos integrantes son?");
+string input = Console.ReadLine();
+Console.WriteLine("¿Cuánto oro tienen en total?");
+string input2 = Console.ReadLine();
 
-//nput.Parse(Console.ReadLine());
-//input2.Parse(Console.ReadLine());
+isValid = int.TryParse(input, out equipo);
+isValid2 = int.TryParse(input2, out oro);
+
+if (isValid)
+{
+    división= oro/equipo;
+    sobrante = oro % equipo;
+    Console.WriteLine($"A cada integrante le corresponde{división} y sobra {sobrante}");
+}
+}
+
 
 
 //Ejercicio #4
 //Declara una constante para el daño crítico
 //Muestra el daño antes y después del valor crítico
+void Dañocritico (){
+string input;
+string input2;
+
+Console.Write("Ingresa tu daño:");
+input = Console.ReadLine();
+
+Console.Write("Ingresa tu fuerza:");
+input2 = Console.ReadLine();
+
+bool isValid;
+int daño;
+int fuerza;
+int critico =2;
+int danocritico;
+
+isValid = int.TryParse(input, out daño);
+isValid = int.TryParse(input2, out fuerza);
+
+if(isValid ==true)
+{
+    daño = fuerza + daño;
+     danocritico= daño * critico;
+    Console.WriteLine($"Tu daño final es {daño}");
+    Console.WriteLine($"Tu daño crtitico es {danocritico}");
+}
+
+else
+{
+    Console.WriteLine($"El daño {input} no es un valor válido");
+    Console.WriteLine($"La fuerza {input2} no es un valor válido");
+}
+}
 
 
 
@@ -115,6 +174,44 @@ void Pociones()
 //Si la compra es correcta, en lugar de un mensaje genera un recibo personalizado:
 //_Pide el nombre del usuario
 //-Muestra el nombre de la tienda
+
+void recibo ();
+int Pocion = 10;
+int oro = 200;
+    
+    
+Console.WriteLine($"Hola jugador , tienes {oro} monedas de oro");
+Console.WriteLine("¿Cuál es tu nombre?");
+string input2 = Console.ReadLine();
+Console.WriteLine($"Cada poción cuesta {Pocion} monedas de oro");
+Console.WriteLine("¿Cuántas pociones quieres?");
+string input = Console.ReadLine();
+    
+bool isValid;
+int compra;
+int multiplicación;
+int resta;
+    
+isValid= int.TryParse(input , out compra);
+if (isValid)
+{
+    multiplicación= compra * Pocion;
+    resta = oro - multiplicación;
+            
+    if (resta>=0)
+    {
+        Console.WriteLine($"Compraste {input} pocimas");
+        Console.WriteLine($"Te quedan {resta} monedas de oro");
+    }
+    else {
+        Console.WriteLine("No tienes suficiente oro");
+    }
+}
+else 
+{
+    Console.WriteLine("Ingresa un valor válido");
+}
+
 
 
 
