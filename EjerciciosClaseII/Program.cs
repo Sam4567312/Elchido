@@ -2,23 +2,22 @@
 Preguntanombre();
 Nombreynacimiento();
 Edadanum();
-Añoyaltura();
-en10años();
+Edadmas10();
+Level();
+Agehighbirth();
 #endregion
-
-
 
 #region Soluciones
 //Ejercicio #1
-//Pregunta el nombre del usuario
+//Pregunta el nombre del usuario y saludar
 
 void Preguntanombre(){
-string nombre;
+string input;
 
-Console.WriteLine("Ingrese un nombre: ");
-nombre = Console.ReadLine();
+Console.Write("Dame tu nombre: ");
+input= Console.ReadLine();
 
-Console.WriteLine($"Hola {nombre} ");
+Console.WriteLine($"Hola {input} ");
 }
 
 
@@ -26,122 +25,126 @@ Console.WriteLine($"Hola {nombre} ");
 //Pregunta nombre y dónde nació
 
 void Nombreynacimiento(){
+    
 
-string nombre;
-string nacimiento;
-
-Console.WriteLine("Escribe tu nombre: ");
-nombre = Console.ReadLine();
+Console.Write("Escribe tu nombre: ");
+var nombre = Console.ReadLine();
 
 Console.Write("Escribe tu lugar de nacimeinto: ");
-nacimiento = Console.ReadLine();
+var country = Console.ReadLine();
 
-Console.WriteLine($"Hola {nombre}, naciste en {nacimiento} ");
+Console.WriteLine($"Presiona una tecla para continuar...");
+Console.ReadKey();
+
+Console.WriteLine($"Hola {nombre}, naciste en {country} ");
 }
 
 //Ejercicio #3
-//Pedir ead al usuario y convertir a número
+//Pedir edad al usuario e intentar convertir el valor
 
 void Edadanum (){
-Console.Write("Ingresa tu edad: ");
+Console.Write("Dame tu edad: ");
 String input = Console.ReadLine();
 
+//Declaro edad y si se pudo
 bool isValid;
-int edad;
+int age;
 
-isValid = int.TryParse(input, out edad);
+//Conversión
+isValid = int.TryParse(input, out age);
 
+//IMpresión de resultado
 Console.WriteLine($"El valor a convertir es {input}");
 Console.WriteLine($"¿Es un valor válido?  {isValid}" );
-Console.WriteLine($"El valor convertido es: {edad}");
+Console.WriteLine($"El valor convertido es: {age}");
 }
 
 //Ejercicio #4
-//Pedir año con short y altura con float 
+//Pedir edad y sumar 10 si es válida 
 
-void Añoyaltura()
+void Edadmas10()
 {
-    Console.Write("Ingresa tu edad:");
-    string input3 = Console.ReadLine();
-
-    Console.Write("Ingresa el año en el que naciste: ");
+    Console.WriteLine("Dame tu edad:");
     string input = Console.ReadLine();
-
-    Console.Write("Ingresa tu altura: ");
-    string input2 = Console.ReadLine();
-
+    
+    
     bool isValid;
-    bool isValid2;
-    short año;
-    float altura;
-    bool isValid3;
-    int edad;
-
-    isValid = short.TryParse(input, out año);
-    isValid2 = float.TryParse(input2, out altura);
-    isValid3 = int.TryParse(input3, out edad);
-
-    Console.WriteLine($"El valor a convertir es {input3}");
-    Console.WriteLine($"¿Es un valor válido?:  {isValid3}");
-    Console.WriteLine($"El valor convertido es: {edad}");
-
-    Console.WriteLine($"El primer valor a convertir es:{input}");
-    Console.WriteLine($"¿Es un valor válido?:  {isValid}");
-    Console.WriteLine($"El valor convertido es: {año}");
-
-    Console.WriteLine($"El primer valor a convertir es:{input2}");
-    Console.WriteLine($"¿Es un valor válido?:  {isValid2}");
-    Console.WriteLine($"El valor convertido es: {altura}");
-
+    int age;
+    
+    isValid = int.TryParse(input, out age);
+    
+    if (isValid==true)
+    {
+        age = age + 10;
+        Console.WriteLine($"La edad en 10 años es: {age}");
+    }
+    else
+    {
+        Console.WriteLine($"El valor de \"{input}\" no es una edad válida");
+    }
+    
 }
 
 //Ejercicio #5
-//Pedir la edad y sumar 10 si es válida
+//Pide al usuario su nivel en forma de byte
+//-Si la entrada es válida,muestra su vida máxima: ´nivel*5´
+//-Si no es válida, muestra un mensaje de error}
 
-void en10años () {
-Console.WriteLine("Ingresa tu edad:");
-string input = Console.ReadLine();
+void Level(){
+    Console.WriteLine("Ingresa tu nivel: ");
+    string input =Console.ReadLine();
 
-bool isValid;
-int edad;
+    bool isValid;
+    byte nivel;
 
-isValid = int.TryParse(input, out edad);
-if(isValid)
-{
-    
-edad = edad+10;
-Console.WriteLine($"Su edad en 10 años será: {edad}");
+    isValid = byte.TryParse(input, out nivel);
 
-}
+    if(isValid== true)
+    {
+        nivel =(byte)(nivel * 5);
+        Console.WriteLine($"La vida es: {nivel}");
+    }
 
-else
-{
-    Console.WriteLine($"El valor de \"{input}\" no es un valor válido");
-}
-
+    else
+    {
+        Console.WriteLine($"El nivel {input} no es un valor válido");
+    }
 }
 
 //Ejercicio #6
-//pedir un nivel, si es válido multiplicar por 5
+//Cuanto mides ,edad año de nacimiento
+void Agehighbirth() {
+Console.Write("Ingresa el año en el que naciste: ");
+string input = Console.ReadLine();
 
-void Edadconnivel (){
-Console.WriteLine("Ingresa tu nivel: ");
-string input =Console.ReadLine();
+Console.Write("Ingresa tu altura: ");
+string input2 = Console.ReadLine();
+
+Console.Write("Ingresa tu edad: ");
+string input3 = Console.ReadLine();
 
 bool isValid;
-byte nivel;
+bool isValid2;
+short año;
+float altura;
+bool isValid3;
+int edad;
 
-isValid = byte.TryParse(input, out nivel);
+isValid = short.TryParse(input, out año);
+isValid2 = float.TryParse(input2, out altura);
+isValid3 = int.TryParse(input3, out edad);
 
-if(isValid== true)
-{
-nivel =(byte)(nivel*5);
-Console.WriteLine($"La vida es: {nivel}");
+Console.WriteLine($"El valor a convertir es {input3}");
+Console.WriteLine($"¿Es un valor válido?:  {isValid3}");
+Console.WriteLine($"El valor convertido es: {edad}");
+
+Console.WriteLine($"El primer valor a convertir es:{input}");
+Console.WriteLine($"¿Es un valor válido?:  {isValid}");
+Console.WriteLine($"El valor convertido es: {año}");
+
+Console.WriteLine($"El primer valor a convertir es:{input2}");
+Console.WriteLine($"¿Es un valor válido?:  {isValid2}");
+Console.WriteLine($"El valor convertido es: {altura}");
 }
 
-else
-{
-    Console.WriteLine($"El nivel {input} no es un valor válido");
-}
-}
 #endregion
