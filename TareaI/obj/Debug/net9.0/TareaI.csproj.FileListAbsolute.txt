@@ -1,0 +1,15 @@
+C:\Users\AdminPC\RiderProjects\ProgramacionI\TareaI\bin\Debug\net9.0\TareaI.exe
+C:\Users\AdminPC\RiderProjects\ProgramacionI\TareaI\bin\Debug\net9.0\TareaI.deps.json
+C:\Users\AdminPC\RiderProjects\ProgramacionI\TareaI\bin\Debug\net9.0\TareaI.runtimeconfig.json
+C:\Users\AdminPC\RiderProjects\ProgramacionI\TareaI\bin\Debug\net9.0\TareaI.dll
+C:\Users\AdminPC\RiderProjects\ProgramacionI\TareaI\bin\Debug\net9.0\TareaI.pdb
+C:\Users\AdminPC\RiderProjects\ProgramacionI\TareaI\obj\Debug\net9.0\TareaI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AdminPC\RiderProjects\ProgramacionI\TareaI\obj\Debug\net9.0\TareaI.AssemblyInfoInputs.cache
+C:\Users\AdminPC\RiderProjects\ProgramacionI\TareaI\obj\Debug\net9.0\TareaI.AssemblyInfo.cs
+C:\Users\AdminPC\RiderProjects\ProgramacionI\TareaI\obj\Debug\net9.0\TareaI.csproj.CoreCompileInputs.cache
+C:\Users\AdminPC\RiderProjects\ProgramacionI\TareaI\obj\Debug\net9.0\TareaI.sourcelink.json
+C:\Users\AdminPC\RiderProjects\ProgramacionI\TareaI\obj\Debug\net9.0\TareaI.dll
+C:\Users\AdminPC\RiderProjects\ProgramacionI\TareaI\obj\Debug\net9.0\refint\TareaI.dll
+C:\Users\AdminPC\RiderProjects\ProgramacionI\TareaI\obj\Debug\net9.0\TareaI.pdb
+C:\Users\AdminPC\RiderProjects\ProgramacionI\TareaI\obj\Debug\net9.0\TareaI.genruntimeconfig.cache
+C:\Users\AdminPC\RiderProjects\ProgramacionI\TareaI\obj\Debug\net9.0\ref\TareaI.dll
