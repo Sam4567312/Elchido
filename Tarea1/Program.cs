@@ -1,6 +1,6 @@
 ﻿#region Ejercicios de Tarea 
 Dañofinal();
-
+Pociones();
 
 #endregion
 
@@ -59,15 +59,27 @@ else
 //-Muestra un mensaje de error si no
 //Muestra cuanto oro resta después de comprar las pociones
 
-void Pociones() {
+void Pociones()
+{
+    int Pocion = 10;
+    int oro = 200;
+    string input;
+    
+    Console.WriteLine($"Hola jugador , tienes {oro} monedas de oro");
+    Console.WriteLine($"Cada poción cuesta {Pocion} monedas de oro");
+    Console.WriteLine("¿Cuántas pociones quieres?");
+    input = Console.ReadLine();
+    
+    if 
+    {
+    
+    (input <= 0:);
+        Console.WriteLine("Porfavor ingresa un valor válido");
+    }
+    
+    
 
 
-Console.Write($"Cada poción cuesta {poción}");
-Console.WriteLine($"Tienes {oro} monedas de oro");
-Console.WriteLine("¿Cuántas pociones vas a querer?");
-string input = Console.ReadLine();
-
-   
 }
 
 

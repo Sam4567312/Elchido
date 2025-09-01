@@ -3,3 +3,13 @@ C:\Users\AdminPC\RiderProjects\ProgramacionI\Tarea1\obj\Debug\net9.0\Tarea1.Asse
 C:\Users\AdminPC\RiderProjects\ProgramacionI\Tarea1\obj\Debug\net9.0\Tarea1.AssemblyInfo.cs
 C:\Users\AdminPC\RiderProjects\ProgramacionI\Tarea1\obj\Debug\net9.0\Tarea1.csproj.CoreCompileInputs.cache
 C:\Users\AdminPC\RiderProjects\ProgramacionI\Tarea1\obj\Debug\net9.0\Tarea1.sourcelink.json
+C:\Users\AdminPC\RiderProjects\ProgramacionI\Tarea1\bin\Debug\net9.0\Tarea1.exe
+C:\Users\AdminPC\RiderProjects\ProgramacionI\Tarea1\bin\Debug\net9.0\Tarea1.deps.json
+C:\Users\AdminPC\RiderProjects\ProgramacionI\Tarea1\bin\Debug\net9.0\Tarea1.runtimeconfig.json
+C:\Users\AdminPC\RiderProjects\ProgramacionI\Tarea1\bin\Debug\net9.0\Tarea1.dll
+C:\Users\AdminPC\RiderProjects\ProgramacionI\Tarea1\bin\Debug\net9.0\Tarea1.pdb
+C:\Users\AdminPC\RiderProjects\ProgramacionI\Tarea1\obj\Debug\net9.0\Tarea1.dll
+C:\Users\AdminPC\RiderProjects\ProgramacionI\Tarea1\obj\Debug\net9.0\refint\Tarea1.dll
+C:\Users\AdminPC\RiderProjects\ProgramacionI\Tarea1\obj\Debug\net9.0\Tarea1.pdb
+C:\Users\AdminPC\RiderProjects\ProgramacionI\Tarea1\obj\Debug\net9.0\Tarea1.genruntimeconfig.cache
+C:\Users\AdminPC\RiderProjects\ProgramacionI\Tarea1\obj\Debug\net9.0\ref\Tarea1.dll
